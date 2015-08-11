@@ -1,0 +1,13 @@
+WEBVTT FILE
+
+00:00:02.000 --> 00:00:20.500
+Hola, <c .warning>en este taller aprenderemos</c> a trabajar con uno de los <u>frameworks del momento</u> <i>"laravel"</i>.
+
+00:00:21.200 --> 00:00:26.900
+<b>Laravel</b> es una de las herramientas para desarrollo con PHP más populares del momento.
+
+00:00:28.000 --> 00:00:35.900
+Laravel te permite beneficiarte del poder de los frameworks pero de una manera sencilla y asumible con facilidad para el mayor rango de desarrolladores PHP con sus distintas experiencias.
+
+00:00:36.000 --> 00:00:40.900
+En primer lugar, empezaremos configurando el entorno que necesitaremos para trabajar con esta tecnología.

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!-- Título y metainformación -->
+	<title>Contacto</title>
+	<meta charset="utf-8" />
+	<meta name="author" content="Sergio Sánchez Sánchez"/>
+	<meta content="width=device-width,initial-scale=1.0" name="viewport">
+	<meta name="description" content="">
+	<link rel="icon" type="image/png" href="../../img/modificadas/favicon.png">
+	<!-- Estilos CSS -->
+	<link rel="stylesheet" type="text/css" href="../../stylesheet/styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,600italic,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,500italic,600italic' rel='stylesheet' type='text/css'>
+</head>
+<body id="top">
+	<!-- Cabecera -->
+		<header id="header">
+			<div class="logotipo">
+				<a   href="../../index.html">
+					<img src="../../img/originales/logo.png" alt="Logotipo" />
+				</a>
+			</div>
+
+			<a href="#" class="btn-menu"><span class="glyphicon  glyphicon-list"></span></a>
+			<!-- Navegación Princiapal -->
+			<nav id="nav">
+				<ul class="principal">
+					<li>
+						<a href="../../index.html"><span class="icon-home"></span>Principal</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="icon-users"></span>
+							Nosotros
+							<span class="glyphicon  glyphicon-triangle-down"></span>
+						</a>
+						<ul class="desplegable">
+							<li>
+								<a href="#">Empresa</a>
+							</li>
+							<li>
+								<a href="../nosotros/equipo.html">Equipo</a>
+							</li>
+						</ul> 
+					</li>
+					<li>
+						<a href="#">
+							<span class="icon-cog-alt"></span>
+							Servicios
+							<span class="glyphicon  glyphicon-triangle-down"></span>
+						</a>
+						<ul class="desplegable">
+							<li>
+								<a href="../servicios/disenioYdesarrolloWeb.html">Diseño y Desarrollo Web</a>
+							</li>
+							<li>
+								<a href="../servicios/formacionTalleres.html">Formación y talleres</a>
+							</li>
+							<li>
+								<a href="../servicios/socioTecnologico.html">Socio Tecnológico</a>
+							</li>
+						</ul> 
+					</li>
+					<li>
+						<a href="../proyectos/proyectos.html"><span class="icon-briefcase"></span>Proyectos</a>
+					</li>
+					<li>
+						<a href="../blog/blog.html"><span class="icon-user-1"></span>Blog</a>
+					</li>
+					<li>
+						<a href="contacto.html">
+							<span class="icon-paper-plane-empty"></span>
+							Contacto
+						</a> 
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<!-- Principal -->
+		<main id="main">
+			<section class="modulo imgFondo img-10">
+	       		 <div class="container">
+	          		<h1 class="animable"> 
+	       				Encantados de atenderte
+	          		</h1>
+	        	</div>
+	      	</section>
+	      	<div class="contacto">
+	      		<div class="localizacion">
+					<h2>Barcelona</h2>
+					<ul class="datosContacto">
+						<li><i class="icon-location"></i>Calle Cartagena 25, Barcelona</li>
+						<li><i class="icon-phone"></i>605333580</li>
+						<li><i class="icon-mail"></i>lotusWebBarcelona@gmail.com</li>
+					</ul>
+				</div>
+				<div class="localizacion">
+					<h2>Valencia</h2>
+					<ul class="datosContacto">
+						<li><i class="icon-location"></i>Av. de Pius XII</li>
+						<li><i class="icon-phone"></i>605416580</li>
+						<li><i class="icon-mail"></i>lotusWebValencia@gmail.com</li>
+					</ul>
+				</div>
+			</div>
+			<section class="modulo content">
+					<div class="container">
+						<h1>No te arrepentirás</h1>
+						<p>
+							Mediante este apartado podrás ponerte en contacto con nosotros
+							o bien dejar tu contacto para poder ponernos en contacto contigo.
+
+						</p>
+						<div class="social">
+							<img class="facebook" src="../../img/modificadas/pixel.png" alt=""/>
+							<img class="twitter" src="../../img/modificadas/pixel.png" alt=""/>
+							<img class="email" src="../../img/modificadas/pixel.png" alt=""/>
+						</div>
+						<div class="formulario" id="contenedorForm">
+							<form id="contacForm" action="#" method="post" novalidate>
+								<fieldset class="formSection">
+									<legend class="formLegend">Formulario de Contacto</legend>
+									<div class="formSectionContent" id="formSectionContent">
+										<div class="formControl">
+											<input type="text" id="nombre" class="jsLocalStorage  jsValidate" name="nombre" required pattern='^[a-zA-Z]{5,30}$' maxlength="30" data-errormsg="Nombre no puede estar vacío y debe ser una cadena" placeholder="p.e abogados S.L" autofocus autocomplete="off"/>
+											<label for="nombre"><i class="glyphicon  glyphicon-user"></i></label>
+										</div>
+										<div class="formControl">
+											<input type="tel" id="tel" class="jsLocalStorage  jsValidate" name="tel" required pattern='^[0-9]{9}$' data-errormsg="Número de teléfono no válido" placeholder="p.e 920255348" />
+											<label for="tel"><i class="icon-phone" ></i></label>
+										</div>
+										<div class="formControl">
+											<input type="email" id="email" class="jsLocalStorage  jsValidate"  name="email" required data-errormsg="Email no válido" placeholder="p.e sss4esob@gmail.com" />
+											<label for="email"><i class="glyphicon  glyphicon-send"></i></label>
+										</div>
+										<div class="formControl">
+											<textarea rows="5" required cols="50" id="mensaje" class="jsLocalStorage  jsValidate" data-errormsg="Debes escribir un mensaje" placeholder="Mensaje"></textarea>
+										</div>
+									</div>
+									<div class="formActions">
+										<input type="submit" class="formSubmit" value="Enviar"/>
+										<input type="reset"  class="formReset" value="Restablecer"/>
+									</div>
+								</fieldset>
+							</form>
+						</div>
+						<p>
+							<strong>NOTA:</strong> Este formulario hace uso de <strong>localStorage</strong> una nueva API JavaScript para almacenar información en forma de
+							clave-valor de forma permanente en el equipo del usuario.De tal forma que cada vez que el control de formulario
+							cambia (evento change) un manejador para este evento guarda el valor del control y si por algún
+							motivo cierra sin querer la pestaña o el navegador la información no se perderá y se restaurará.
+							Al enviar el formulario o al restablecerle toda la información se borra.
+
+						</p>
+					</div>
+			</section>
+		</main>
+		<footer id="footer">
+			<div class="w3cIconos">
+	  			<figure class="icon">
+	  				<span class="glyphicon glyphicon-html5"></span>
+	  				<figcaption class="leyenda"><a href="#">W3C HTML5 STANDARD</a></figcaption>
+	  			</figure>
+  			</div>
+	  		<ul class="mapaSitio">
+	  			<li><a href="../../index.html">Principal</a></li>
+	  			<li>
+	  				Nosotros
+	  				<ul class="sub">
+	  					<li><a href="#">Empresa</a></li>
+	  					<li><a href="../nosotros/equipo.html">Equipo</a></li>
+	  				</ul>
+	  			</li>
+	  			<li>
+	  				Servicios
+	  				<ul class="sub">
+	  					<li><a href="../servicios/disenioYdesarrolloWeb.html">Diseño y Desarrollo Web</a></li>
+	  					<li><a href="../servicios/formacionTalleres.html">Formación y Talleres</a></li>
+	  					<li><a href="../servicios/socioTecnologico.html">Socio Tecnológico</a></li>
+	  				</ul>
+	  			</li>
+	  			<li><a href="../proyectos/proyectos.html">Proyectos</a></li>
+	  			<li><a href="../blog/blog.html">Blog</a></li>
+	  			<li><a href="contacto.html">Contacto</a></li>
+	  		</ul>
+  			<a id="to-top" href="#top" class="regresarArriba  anchor"><i class="glyphicon  glyphicon-triangle-up"></i></a>
+	  		<form class="dejarTelefono" action="#" method="post">
+	  			<input type="tel" name="telefono" pattern="^\d{9}$" placeholder="déjanos tu teléfono"/>
+	  			<input type="submit" value="enviar"/>
+	  		</form>
+	
+	  		<address class="info">
+	  			<span>920 25 53 48</span>
+	  			<span class="name">Lotus Web</span>
+	  			<span>Calle Cartagena 25 (Barcelona)</span>, 
+	  			<span>Av. de Pius XII (Valencia)</span>, 
+	  			<span>05004</span>, 
+	  			<span>España</span>
+  			</address>
+
+  		</footer>
+	<!-- JavaScript -->
+	<script type="text/javascript" src="../../js/modernizr.js"></script>
+	<script type="text/javascript" src="../../js/vendor/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="../../js/localStorage.js"></script>
+	<script type="text/javascript" src="../../js/manejarScroll.js"></script>
+	<script type="text/javascript" src="../../js/menu.js"></script>
+	<script type="text/javascript" src="../../js/jQuery.formValidation.js"></script>
+	<script type="text/javascript">
+		
+		;(function($){
+
+			$("#contacForm").validation({idErrorBox:"#errorBox",defaultErrorMsg:false,dataAttributeName:"errormsg"}).on("sendForm",function(e){
+				e.preventDefault();
+				$("<div>",{
+					class:"infoWindow"
+				})
+				.append($("<p>",{
+					class:"msg",
+					text:"Gracias por confiar en nosotros, en breve nos pondremos en contacto con usted"
+				}))
+				.hide().appendTo("#contenedorForm").show("Medium").delay(3000).fadeOut("slow",function(){
+					$(this).remove();
+				});
+
+			})
+			
+
+		})(jQuery);
+		
+	</script>
+</body>
+</html>
+

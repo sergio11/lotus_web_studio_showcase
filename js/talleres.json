@@ -1,0 +1,80 @@
+{
+  "talleres" : [
+	  {
+  		"tittle":"Desarrollo FullStack MEAN JavaScript",
+  		"teaser":"Taller introductorio al concepto FullStack MEAN JavaScript.",
+  		"otherData":{
+        "srcVideo":"../../videos/video.mp4",
+        "posterVideo":"",
+  			"date":"15/12/2014 19:00",
+  			"img":{
+          "src":"../../img/originales/esquema Aplicacion fullStack MEAN.png",
+          "leyenda":"Desarrollo FullStack MEAN"
+        },
+  			"text":"El objetivo es demostrar que se puede ser más productivo, creando proyectos rentables gracias a AngularJS y JavaScript FullStack.'JS FullStack' significa Programar usando una pila tecnológica basada en JavaScript. Puede ser simplemente una cuestión de economía, pues si utilizamos el mismo lenguaje para desarrollar el cliente, el servidor y la base de datos, podemos reducir los tiempos de entrega. La escalabilidad que proporciona la programación asíncrona dirigida por eventos hace que los usuarios tengan mejores experiencias y que los propietarios saquen mayor partido a sus máquinas. Empleando arquitecturas con modelos MVC y data-binding del lado del cliente ahorraremos en comunicaciones y sobrecarga del servidor. En resumen, al entorno de desarrollo que os vamos a mostrar se le conoce como 'MEAN'. Es un acrónimo para MongoDB, Express, NodeJS y AngularJS. Estas tecnologías conforma un JavaScript FullStack. En esta charla veremos cómo crear en una hora un sistema que guarda y recupera datos de la manera más eficaz posible, con AngularJS y JavaScript FullStack."
+      }
+  	},
+    {
+      "tittle":"Desarrollo Web Profesional con Laravel",
+      "teaser":"Introdución a laravel el framework MVC PHP del momento.",
+      "otherData":{
+        "srcVideo":"../../videos/laravel.mp4",
+        "posterVideo":"",
+        "date":"15/12/2014 19:00",
+        "img":{
+          "src":"../../img/originales/laravel.png",
+          "leyenda":"Desarrollo con Laravel"
+        },
+        "text":"El framework Laravel es una de las herramientas para desarrollo con PHP más populares del momento. Laravel te permite beneficiarte del poder de los frameworks pero de una manera sencilla y asumible con facilidad para el mayor rango de desarrolladores PHP con sus distintas experiencias. La sesión tendrá dos partes, una el lunes, de la que aprovechamos para avistarte también con esta nota, en la que tendremos una sesión dedicada a las posibilidades del Framework y los motivos por los que está convenciendo a una gran comunidad para utilizarlo en lugar de otros frameworks existentes."
+      }
+    }
+    ,
+    {
+      "tittle":"Introducción a Angular JS",
+      "teaser":"Introdución al framework MVC JavaScript que mejorará tu productividad",
+      "otherData":{
+        "srcVideo":"../../videos/angularjs.mp4",
+        "posterVideo":"",
+        "date":"15/12/2014 19:00",
+        "img":{
+          "src":"../../img/originales/angularjs.png",
+          "leyenda":"Introducción a AngularJS"
+        },
+        "text":"AngularJS es Javascript. Es un proyecto de código abierto, realizado en Javascript que contiene un conjunto de librerías útiles para el desarrollo de aplicaciones web y propone una serie de patrones de diseño para llevarlas a cabo. En pocas palabras, es lo que se conoce como un framework para el desarrollo, en esta caso sobre el lenguaje Javascript con programación del lado del cliente. Puedes encontrar el proyecto de AngularJS en su propio sitio web: AngularJS, Superheroic JavaScript MVW Framework. Al ser un proyecto de código abierto cualquier persona con un poco de curiosidad echar un vistazo con profundidad y ver cómo se ha escrito, incluso admiten colaboraciones de desarrolladores que quiera aportar cosas."
+      }
+    }
+    ,
+    {
+      "tittle":"Desarrollo con Node.js",
+      "teaser":"Entienda su potencial y desarrolle aplicaciones itensive-data",
+      "otherData":{
+        "srcVideo":"",
+        "posterVideo":"",
+        "date":"15/12/2014 19:00",
+        "img":{
+          "src":"../../img/originales/nodeJs.png",
+          "leyenda":"Las virtudes de Node.js"
+        },
+        "text":"Si te vienes con nosotros te enseñaremos, entre otras cosas, aspectos como qué es NodeJS, para qué sirve, y qué debes hacer para comenzar a usarlo. Haremos un breve recorrido acerca de la arquitectura detrás de este proyecto, que se estructura de esta forma: Programación Asíncrona y Sincrona , Event-loop (Programación Orientada a Eventos {event-driven}) , Módulos, npm y CommonJS (más módulos). Finalizaremos, si el tiempo lo permite, con un Hello World en NodeJS, pero no será un ejemplo tan básico como el típico 'hola mundo', sino que realizaremos un servidor con rutas y autenticación básica. Con todo ello, tenemos materia suficiente para que empezemos empaparnos en NodeJS y la programación Javascript del lado del servidor. Seguro que será un directo muy provechoso!"
+      }
+    },
+    {
+      "tittle":"Desarrollo Web Moderno con Yeoman",
+      "teaser":"Desarrollo web moderno con Yeoman",
+      "otherData":{
+        "srcVideo":"",
+        "posterVideo":"",
+        "date":"15/12/2014 19:00",
+        "img":{
+          "src":"../../img/originales/yeoman.jpg",
+          "leyenda":"Yeoman al rescate"
+        },
+        "text":"Yeoman, una herramienta que, entre otras muchas cosas, nos ayuda con esta tarea de empezar con un nuevo proyecto y añadir todo lo necesario. Tal y como explican en su web oficial es un flujo de trabajo, un conjunto de herramientas y buenas prácticas funcionando en armonía para hacer el desarrollo web incluso mejor."
+      }
+    }
+
+  ]
+  
+}
+
+  
